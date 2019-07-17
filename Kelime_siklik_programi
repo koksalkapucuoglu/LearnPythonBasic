@@ -1,0 +1,132 @@
+class Dosya():
+
+    def __init__(self):
+
+        with open("ing1.txt","r",encoding="utf-8") as file: #okunacak dosyamızı açtık.
+
+            dosya_icerigi = file.read()#dosya içeriğini okuduk ve bir değişkene attık.
+
+            kelimeler = dosya_icerigi.split()#içerikteki metinde geçen kelimelerin hepsini ayrı ayrı alabilmek için
+                                             #boşluk filtresini kullandık ve her bir kelimeyi dizeye attık.
+                                            #hiçbirşey vermediğimiz içim boşluğa göre ayıracak.
+
+                                        # self.sade kelimler diyerek tanımladık, bu değişkeni başka metodda kullanalım.
+            self.sade_kelimeler = list() #kelimeleri sadeleştirdikten sonra bu listeye atacağız.
+            self.kelime_sozluk = dict()  #kelimeler ve tekrarlanma sayılarını birlikte girmek için bir sözlük oluşturduk.
+            self.sort_liste = list()  # sırala için en son kelime ve tekrarlanma sayılarını buraya atacağız.
+            for i in kelimeler:
+
+                #sadeleştirmeler
+                i=i.strip("\n") #strip baştan ve sondan bu karakteri siler.
+
+                i = i.strip(" ")
+
+                i = i.strip(".")
+
+                i = i.strip(",")
+
+                i = i.strip('“')
+
+                i= i.strip('”')
+
+                self.sade_kelimeler.append(i)
+
+    def tum_kelimeler(self):
+
+        kelimeler_kumesi = set() #sade_kelimeler üzerinde gezinip elemanları kümeye atacağız. Böylece birden fazla olan
+                                 #elemanlar yazılmayacak.
+
+        for i in self.sade_kelimeler:
+
+            kelimeler_kumesi.add(i) #sade_kelimeler listesinde gezinerek tüm elemanları kümeye atıyoruz. Aynı olanlar atılmıyor.
+
+        print("Tüm kelimeler.......")
+
+        for i in kelimeler_kumesi:
+
+            print(i)
+
+            print("***************************")
+
+
+    def kelime_frekansi(self):
+
+
+        for i in self.sade_kelimeler:
+
+            if (i in self.kelime_sozluk): #i kelimesi kelime_sozluk'te var mı varsa değeri 1 arttır.
+
+                self.kelime_sozluk[i] += 1
+
+            else:
+                self.kelime_sozluk[i] = 1 #eğer yoksa o kelimeyi ekle ve değerini 1 olarak ata.
+
+        #for kelime,sayı in self.kelime_sozluk.items(): Tüm kelimeleri ekrana yazdıracak döngü
+
+         #   print("{} ifadesi {} defa geçiyor".format(kelime,sayı))
+          #  print("-----------------------------------------------------")
+
+
+    def en_fazla_kelime(self):
+
+        self.kelime_frekansi()
+
+        kelime_sozluk_deger = list(self.kelime_sozluk.items())#kelime_sozluk sözlüğündeki her 2 parametreyi 2 parametre
+                                                                #1  demet olması ve her demet de liste oluşturması için
+                                                                #listeye dönüştürüyoruz.
+
+
+        for j in range(1,len(kelime_sozluk_deger)):#kelime tekrarlanma sayılarını sıralamak için liste boyutu kadar döngüye
+                                                    #sokuyoruz. Böylece tüm elemanlar birbiriyle karşılaştırılacak.
+
+            enbuyukindis = 0 # en büyük indisi tutacak.
+
+            for i in range(1,len(kelime_sozluk_deger)):#her bir eleman bir demek demiştik. Burada kaç tane demek varsa
+                                                    # ,ki bu da liste boyutuna eşit, 1.indislerini karşışatırıyoruz.
+
+                a=int(kelime_sozluk_deger[i][1])#her el yeni indisli elemanı tutacak.
+                b=int(kelime_sozluk_deger[enbuyukindis][1])#her el büyük indisli tutacak
+                if a > b:
+                    enbuyukindis = i
+                else:
+                    enbuyukindis = enbuyukindis
+
+
+            self.sort_liste.append((kelime_sozluk_deger[enbuyukindis][0],kelime_sozluk_deger[enbuyukindis][1]))
+            #en büyük indisi ve o kelimeyi bir listeye   atar. Böylece en çok tekrarlanan kelime ile tekrarlanma sayısı
+            #listeye bir atılır.
+
+            kelime_sozluk_deger.pop(enbuyukindis)#en büyüğü bulduktan sonra listeden çıkartılır ve yeni listedeki en
+            #büyük bulunur. Böylece listede hiç eleman kalmayıncaya kadar tüm elemanları büyükten küçüğe sıralar.
+
+
+        #return(print("Çoktan aza kelime sırası: ",self.sort_liste))
+
+    def kelime_varmi(self):
+
+        girilen = input("Lütfen aramak istediğiniz kelimeyi yazın: ")
+
+        adet = 0
+
+        for i in self.sade_kelimeler:
+
+            if i == girilen:
+                adet += 1
+
+        if adet == 0:
+            print("Girlien kelime dosyada geçmiyor....")
+        else:
+            print("Girilen kelime '{}' dosyada {} defa geçer..".format(girilen, adet))
+
+dosya = Dosya()
+
+#dosya.kelime_frekansı()
+
+dosya.en_fazla_kelime()
+
+for i in dosya.sort_liste:
+    print(i)
+
+#dosya.kelime_varmi()
+
+
