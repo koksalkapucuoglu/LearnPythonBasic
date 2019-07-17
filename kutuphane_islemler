@@ -1,0 +1,85 @@
+from kütüphane import *
+
+print("""
+*********************************************************
+Kütüphane Programına Hoşgeldiniz.
+
+İşlemler;
+
+1.Kitapları Göster
+
+2.Kitap Sorgulama
+
+3.Kitap Ekle
+
+4.Kitap Sil
+
+5.Baskı Yükseltme
+
+Çıkmak için 'q'ya basın.
+
+*********************************************************
+""")
+
+kütüphane = Kutuphane() #kütüphane adlı bir Kutuphane objesi oluşturuyoruz.
+while True:
+
+    islem = input("Yapacağınız işlem:")
+
+    if islem == 'q':
+
+        print("Program Sonlandırılıyor...")
+        print("Yine Bekleriz...")
+        break
+
+    elif islem == "1":
+        kütüphane.kitaplari_goster()
+
+    elif islem == "2":
+        isim = input("Hangi kitabı istiyorsunuz? ")
+        print("Kitap Sorgulanıyor...")
+        time.sleep(2)
+
+        kütüphane.kitap_sorgula(isim)
+
+    elif islem == "3":
+
+        isim = input("İsim: ")
+        yazar = input("Yazar: ")
+        yayinevi = input("Yayınevi: ")
+        tur = input("Tür: ")
+        while True:
+
+            try:
+                baski = int(input("Baskı"))
+                break
+            except ValueError:
+                print("Lütfen baskı değerine sayı girin: ")
+
+
+
+        yeni_kitap = Kitap(isim,yazar,yayinevi,tur,baski) # yeni_kitap adlı bir Kitap objesi oluşturuyoruz.
+
+        print("Kitap ekleniyor...")
+        time.sleep(2)
+
+        kütüphane.kitap_ekle(yeni_kitap)
+
+
+    elif islem == "4":
+        isim = input("Hangi kitabı silmek istiyorsunuz ?")
+
+        cevap = input("Emin misiniz ? (E/H)")
+
+        if cevap == "E" or cevap == "e":
+            print("Kitap siliniyor...")
+            time.sleep(2)
+            kütüphane.kitap_sil(isim)
+
+
+    elif islem == "5":
+        isim = input("Hangi kitabın baskısını yükseltmek istiyorsunuz ? ")
+        print("Baskı yükseltiliyor")
+        time.sleep(2)
+
+        kütüphane.baski_yukselt(isim)
