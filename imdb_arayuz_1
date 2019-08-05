@@ -1,0 +1,117 @@
+"""
+BeautifulSoup ve PyQt5 kullanılarak yapılmış imdb top250 listesi. imdb puanına göre filtreleme yapılabiliyor.
+"""
+import sys
+import os
+
+import requests
+
+from bs4 import BeautifulSoup
+
+from PyQt5.QtWidgets import QWidget,QApplication,QTextEdit,QLabel,QPushButton,QVBoxLayout,QFileDialog,QHBoxLayout,QLineEdit
+
+class Pencere(QWidget):
+    def __init__(self):
+
+        super().__init__()#Qwidget tüm özelliklerini dahil eder.
+
+        self.init_ui()#Başlangıç kullanıcı arayüzü fonksiyonunu çalıştırır.
+
+    def init_ui(self):
+
+        self.yazi_alani1 = QLabel("Puanı Giriniz")
+        self.puan = QLineEdit()
+        self.yazi_alani2 = QLabel("Filmler")
+        self.v_box2 = QVBoxLayout()
+
+        self.temizle = QPushButton("Temizle")
+        self.sirala = QPushButton("Sırala")
+
+        self.v_box = QVBoxLayout()
+
+        self.v_box.addWidget(self.yazi_alani1)
+        self.v_box.addWidget(self.puan)
+        self.v_box.addWidget(self.yazi_alani2)
+        self.v_box.addLayout(self.v_box2)
+
+
+        self.v_box.addWidget(self.temizle)
+        self.v_box.addWidget(self.sirala)
+        self.v_box.addStretch()
+
+        self.setLayout(self.v_box)
+
+        self.setWindowTitle("Imdb Top 250")
+
+        self.temizle.clicked.connect(self.yaziyi_temizle)
+        self.sirala.clicked.connect(self.film_sirala)
+
+
+
+
+        self.show()
+
+    def yaziyi_temizle(self):
+        self.puan.clear()
+
+
+
+    def film_sirala(self):
+
+
+        url = "http://www.imdb.com/chart/top"
+
+        response = requests.get(url)
+
+        html_icerigi = response.content
+
+        soup = BeautifulSoup(html_icerigi, "html.parser")
+
+        a = float(self.puan.text())
+
+        basliklar = soup.find_all("td", {"class": "titleColumn"})
+        ratingler = soup.find_all("td", {"class": "ratingColumn imdbRating"})
+
+        for baslik, rating in zip(basliklar, ratingler):  # zip iki fonksiyonu birleştirip ve demet yapar.
+            baslik = baslik.text
+            rating = rating.text
+
+            baslik = baslik.strip()  # bastaki ve sondaki boşlukları sileriz.
+            baslik = baslik.replace("\n", "")  # boşlukları satır atlama ile değiştiriyoruz.
+
+            rating = rating.strip()
+            rating = rating.replace("\n", "")
+
+            if (float(rating) >= a):
+                self.h_box = QHBoxLayout()
+                self.v_box2.addLayout(self.h_box)
+
+                self.film_isim = QLineEdit()
+                self.film_puan = QLineEdit()
+                self.h_box.addWidget(self.film_isim)
+                self.h_box.addWidget(self.film_puan)
+
+
+
+
+                baslik1 = baslik.split(".")
+                sira = baslik1[0]
+                isim = baslik1[1]
+                isim = isim.strip(" ")
+                sira = sira.strip(" ")
+
+                #print("{}) {}  Rating: {}".format(sira, isim, rating))
+                #print("*******************************************************")
+
+                self.film_isim.setText("{}) {}".format(sira,isim))
+                self.film_puan.setText("Rating: {}".format(rating))
+
+
+
+
+
+app = QApplication(sys.argv)
+
+pencere = Pencere()
+
+sys.exit(app.exec_())
