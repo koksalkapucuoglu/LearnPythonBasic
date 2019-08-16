@@ -1,5 +1,4 @@
 from flask import Flask,render_template,flash,redirect,url_for,session,logging,request
-from werkzeug import secure_filename
 import os
 from flask_mysqldb import MySQL
 from wtforms import Form,StringField,PasswordField,TextAreaField,validators,SubmitField
@@ -34,6 +33,16 @@ class RegisterForm(Form):
 class LoginForm(Form):
     username = StringField("Kullanıcı Adı")
     password = PasswordField("Parola")
+
+# Profile Bilgi Formu
+class ProfileInfo(Form):
+    name = StringField("İsim Soyisim",validators=[validators.length(min=4,max=25,message="Lütfen adınız 4 karakter ile 25 karakter arasında olsun.")])#validators ile kısıtlamalalar getiriyoruz. Birden fazla kısıtlama için liste kullanıyoruz.
+    username = StringField("Kullanıcı Adı",validators=[validators.length(min=5,max=35)])
+    email = StringField("Email Adresi",validators=[validators.Email(message="Lütfen Geçerli Bir Email Adresi Girin...")])#valitadors.email, girilen email'in gerçek olup olmadığını kontrol eder
+    #eğer böyle bir email adresi yoksa hata mesajını verir.
+    password = PasswordField("Parola", validators=[validators.length(min=5,max=15,message="Parolanız 5 ile 15 karakter arasında olabilir! "),validators.EqualTo(fieldname = "confirm", message="Parolanız Uyuşmuyor...") #iki şifrenin de(confirm-password) birbirine eşit olması gerekir.
+    ])
+    confirm = PasswordField("Parola Doğrula")
 
 #Makale Form
 class ArticleForm(Form):
@@ -299,11 +308,14 @@ def search():
 @app.route("/profile/<string:durum>",methods=["GET","POST"]) 
 @login_required       
 def profile(durum):
-    if durum == "changeinfo":
-        
+    if durum == "changeinfo":  
         if request.method=="POST":
-            form = ChangeinfoForm(request.form)
-            if form.validate():
+            form = ProfileInfo(request.form)
+            password_entered = sha256_crypt.hash(form.password.data)
+            null_password = "" 
+
+            if sha256_crypt.verify(null_password,password_entered):#şifrelenmiş password ile girilen password kontrol edilir.
+                
                 new_name = form.name.data
                 new_username=form.username.data
                 new_email=form.email.data
@@ -318,10 +330,40 @@ def profile(durum):
                 
                 cursor.close()
 
+                session["username"]= new_username # burada bunu yapmazsak kullanıcı adı güncellediğinde bilgiler sayfasına girerken girişteki kullanıcı adı bilgilerini getirmeye çalışıyor ve hata veriyor.
+
                 flash("Bilgiler başarıyla güncellendi","success")
-                return redirect(url_for("index"))
+                filename='profil_pic.jpg'
+                return redirect(url_for("index",filename=filename))
 
+            elif form.validate():
+                new_name = form.name.data
+                new_username=form.username.data
+                new_email=form.email.data
+                new_password = sha256_crypt.hash(form.password.data)
+                
+                cursor=mysql.connection.cursor()
+         
+                sorgu="Update users Set name=%s,email=%s,username=%s,password=%s where username=%s"
+                
+                cursor.execute(sorgu,(new_name,new_email,new_username,new_password,session["username"]))
 
+                mysql.connection.commit()
+                
+                cursor.close()
+
+                session["username"]= new_username # burada bunu yapmazsak kullanıcı adı güncellediğinde bilgiler sayfasına girerken girişteki kullanıcı adı bilgilerini getirmeye çalışıyor ve hata veriyor.
+                filename='profil_pic.jpg'
+                flash("Bilgiler başarıyla güncellendi","success")
+                return redirect(url_for("index",filename=filename))
+
+            else: #parola boş değilse ve girilen kriterlere uyunmamışsa buraya girilir ve profile sayfasına get request uygulanır.
+                filename='profil_pic.jpg'
+                flash("Şifreniz kısa/girdiğiniz parolalar uyuşmuyor veya girdiğiniz bilgiler  çok kısa...","danger")
+                
+                return render_template("profile.html",form = form,durum = durum,filename=filename)
+                #Eğer şifre boş değilse(sadece diğer bilgileri değiştirmek istediğimizde şifreyi de yazmak zorunda kalmayalım diye)  ve hatalar varsa bu sayfayı aynı form üzerinden 
+                #get request ederek formu oluştururken girdiğimiz kriterlere uygun mu kontrol edebiliriz.
         else:
            #GET Request
             cursor = mysql.connection.cursor()
@@ -332,57 +374,17 @@ def profile(durum):
     
             user = cursor.fetchone()
 
-            form = ChangeinfoForm()
+            form = ProfileInfo()
 
             form.name.data = user["name"] 
             form.username.data = user["username"] 
             form.email.data = user["email"]
+            filename='profil_pic.jpg'
+            return render_template("profile.html",form = form,durum = durum,filename=filename)
 
-            return render_template("profile.html",form = form,durum = durum)
     elif durum == "picture":
         filename='profil_pic.jpg'
-        return render_template("profil_picture.html", filename = filename)
-    else:
-        if request.method=="POST":
-            form = ChangepassForm(request.form)
-            if form.validate():
-    
-                new_password = sha256_crypt.hash(form.password.data)
-                print(new_password)
-                
-                cursor=mysql.connection.cursor()
-         
-                sorgu="Update users Set password = %s where username=%s"
-              
-                cursor.execute(sorgu,(new_password,session["username"]))
-
-                mysql.connection.commit()
-               
-                cursor.close()
-
-                flash("Bilgiler başarıyla güncellendi","success")
-                return redirect(url_for("index"))
-         
-         
-        else:
-            form = ChangepassForm()
-            return render_template("profile.html",form = form,durum = durum)
-
-    
-    
-# Profil Bilgi Formu
-class ChangeinfoForm(Form):
-    name = StringField("İsim Soyisim",validators=[validators.length(min=4,max=25,message="Lütfen adınız 4 karakter ile 25 karakter arasında olsun.")])#validators ile kısıtlamalalar getiriyoruz. Birden fazla kısıtlama için liste kullanıyoruz.
-    username = StringField("Kullanıcı Adı",validators=[validators.length(min=5,max=35)])
-    email = StringField("Email Adresi",validators=[validators.Email(message="Lütfen Geçerli Bir Email Adresi Girin...")])#valitadors.email, girilen email'in gerçek olup olmadığını kontrol eder
-    
-#Profil Şifre Formu
-class ChangepassForm(Form):
-    password = PasswordField("Parola", validators=[
-        validators.data_required(message="Lütfen bir parola belirleyin..."), #veri girişi ister, boş bırakılmaz.
-        validators.EqualTo(fieldname = "confirm", message="Parolanız Uyuşmuyor...") #iki şifrenin de(confirm-password) birbirine eşit olması gerekir.
-    ])
-    confirm = PasswordField("Parola Doğrula")
+        return render_template("profile.html", filename = filename)
 
 
 
