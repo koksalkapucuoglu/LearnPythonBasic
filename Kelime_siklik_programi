@@ -1,3 +1,9 @@
+from googletrans import Translator
+
+translator = Translator(service_urls=[
+      'translate.google.com',
+      'translate.google.com.tr',
+    ])
 class Dosya():
 
     def __init__(self):
@@ -125,10 +131,13 @@ dosya = Dosya()
 #dosya.kelime_frekansı()
 
 dosya.en_fazla_kelime()
-
+transliste = list()
 for i in dosya.sort_liste:
     print(i)
+translations = translator.translate(transliste, dest='tr')
 
+for translation in translations:
+	print(translation.origin, ' -> ', translation.text)
 #dosya.kelime_varmi()
 
 
