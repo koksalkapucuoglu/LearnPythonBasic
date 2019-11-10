@@ -28,6 +28,8 @@ class Dosya():
                 i = i.strip('“')
 
                 i= i.strip('”')
+                 
+                i= i.lower()
 
                 self.sade_kelimeler.append(i)
 
