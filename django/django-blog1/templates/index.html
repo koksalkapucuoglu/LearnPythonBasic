@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h3>Anasayfa</h3>
+<hr>
+<div class="jumbotron text-center"><!--orta merkezli bir yazı alanı oluşturur -->
+    <h3>Elektronik ve Yazılım Bloğuna Hoşgeldiniz</h3>
+    <p>
+        Bu blogta geliştiriciler olarak blog yazılarınızı paylaşabilirsiniz ve insanlara yardımcı olabilirsiniz.
+    </p>
+</div>
+
+
+<p>
+        {% if request.user.is_authenticated %}<!--Kullanıcı kontrolü-->
+                Giriş Yapılmış, {{request.user.username}}
+        {% else %}
+                Giriş Yapılmamış
+        {% endif %}
+
+</p>
+
+{% endblock %}
