@@ -1,0 +1,634 @@
+1567064064344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.L9VFBnlniiME"
+1567064064837	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567064064837	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567064064838	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567064064838	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567064066602	Marionette	INFO	Listening on port 63412
+1567064067056	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567064095154	Marionette	INFO	Stopped listening on port 63412
+[Parent 5136, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3812, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_ch
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+annel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 5136, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3908, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 7608, Chrome_ChildThread] WARNING: pipe error: 109: fil1567064404685	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.NtUkhufJakb3"
+1567064405164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567064405164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567064405164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567064405164	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567064406842	Marionette	INFO	Listening on port 63684
+1567064406908	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567064420220	Marionette	INFO	Stopped listening on port 63684
+[Child 5964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4684, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2836, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4684, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1567066052128	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.fMwIHW520F2O"
+1567066052619	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567066052619	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567066052619	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567066052619	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567066054503	Marionette	INFO	Listening on port 64077
+1567066054840	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567066066353	Marionette	INFO	Stopped listening on port 64077
+[Child 5272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5272, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565[Parent 8076, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 8076, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5728, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[GPU 9048, Chrom1567066293358	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.cJrdJscHxCJ6"
+1567066293844	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567066293844	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567066293844	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567066293845	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567066295581	Marionette	INFO	Listening on port 64293
+1567066296072	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567066306820	Marionette	INFO	Stopped listening on port 64293
+[Child 804, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 804, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc,IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 5352, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 8840, Chrome_C1567066400567	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.OMt00XtGsLhA"
+1567066401040	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567066401041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567066401041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567066401041	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567066402671	Marionette	INFO	Listening on port 64469
+1567066402771	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567066412785	Marionette	INFO	Stopped listening on port 64469
+[Child 4804, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6644, Gecko_IOThread] WARNING: file z:/task_1565706750/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+[Parent 6644, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7116, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc[Parent 6644, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[GPU 502
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+8, C1567067504508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.XTEVnMqViIhT"
+1567067504998	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567067504998	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567067504998	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567067504998	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567067506673	Marionette	INFO	Listening on port 64788
+1567067506734	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567067517365	Marionette	INFO	Stopped listening on port 64788
+[Parent 7540, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5588, Chrome_ChildThread] WARNING: pipe error: 109: file [Child 8020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8020, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 7540, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7284, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[GPU 4764, Chrome_ChildTh
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1567068903462	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.aEBWjRMT7zIx"
+1567068904039	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567068904040	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567068904040	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567068904040	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567068906139	Marionette	INFO	Listening on port 49316
+1567068906161	Marionette	WARN	TLS certificate errors will be ignored for this session
+1567068919465	Marionette	INFO	Stopped listening on port 49316
+[Parent 6936, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/co[Child 7776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7776, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channe
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+l_win.cc, line 341
+[Parent 6936, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1567069318526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.JCQt2oNelvUw"
+1567069319045	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567069319045	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567069319045	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567069319045	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567069321043	Marionette	INFO	Listening on port 53502
+1567069321231	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 2080, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 2080, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1567069423551[Parent 4556, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7804, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7804, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8572, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/[Parent 4556, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3396, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1567069435680	Marionette	INFO	Stopped listening on port 53638
+[GPU 8356, Chrome_ChildThread1567069444835	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.6R8tZfUyE53c"
+1567069445317	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567069445317	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567069445317	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567069445317	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567069447100	Marionette	INFO	Listening on port 53674
+1567069447540	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567023479829%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: https://s0.2mdn.net/sadbundle/13562769359507554304/300x250.js, line 17: TypeError: cjs.Sprite is not a constructor
+JavaScript error: https://s0.2mdn.net/sadbundle/13562769359507554304/300x250.html, line 26: TypeError: AdobeAn.getComposition is not a function
+1567069499749	Marionette	INFO	Stopped listening on port 53674
+[Child 8496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1567069775924	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.Ke3ZYDRqxZOH"
+1567069776447	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567069776447	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567069776447	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567069776447	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567069778392	Marionette	INFO	Listening on port 53887
+1567069778634	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5264, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7348, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6620, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1567069834944	Marionette	INFO	Stopped listening on port 53887
+[GPU 5096, Chrome_Ch
+###!!! [Child][RunMessage] Error: Channel closing: console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: https://static.criteo.net/js/ld/publishertag.js, line 1: NS_ERROR_FILE_NO_DEVICE_SPACE: 
+JavaScript error: https://s0.2mdn.net/sadbundle/13562769359507554304/300x250.js, line 17: TypeError: cjs.Sprite is not a constructor
+JavaScript error: https://s0.2mdn.net/sadbundle/13562769359507554304/300x250.html, line 26: TypeError: AdobeAn.getComposition is not a function
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+[Parent 4744, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8328, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Child 6176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6176, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_15657067501567069916714	Marionette	INFO	Stopped listening on port 54060
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 5248, Chrome_ChildThread1567069925063	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.bQfrPujXLZfF"
+1567069925497	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567069925497	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567069925497	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567069925498	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567069925570	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.bQfrPujXLZfF\\extensions.json","winLastError":112}
+JavaScript error: resource://services-common/kinto-offline-client.js, line 579: Error: IndexedDB getLastModified() The current transaction exceeded its quota limitations.
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  QuotaExceededError
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+1567069926972	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.bQfrPujXLZfF\\extensions.json","winLastError":112}
+1567069927051	Marionette	INFO	Listening on port 54244
+1567069927051	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.bQfrPujXLZfF\\extensions.json","winLastError":112}
+1567069927249	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: (new Error("Error(s) encountered during statement execution: database or disk is full", "resource://gre/modules/Sqlite.jsm", 815))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: https://ekstat.com/js/ek$i-combo.js?v=3HOQWVeylUBlO3NKdw4Vfrkvl1gagIYJuyMv5e80imE1, line 1: NS_ERROR_FAILURE: 
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1811: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: https://ekstat.com/js/ek$i-combo.js?v=3HOQWVeylUBlO3NKdw4Vfrkvl1gagIYJuyMv5e80imE1, line 1: NS_ERROR_FAILURE: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: https://ekstat.com/js/ek$i-combo.js?v=3HOQWVeylUBlO3NKdw4Vfrkvl1gagIYJuyMv5e80imE1, line 1: NS_ERROR_FAILURE: 
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: https://ekstat.com/js/ek$i-combo.js?v=3HOQWVeylUBlO3NKdw4Vfrkvl1gagIYJuyMv5e80imE1, line 1: NS_ERROR_FAILURE: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is unJavaScript error: https://ekstat.com/js/ek$i-combo.js?v=3HOQWVeylUBlO3NKdw4Vfrkvl1gagIYJuyMv5e80imE1, line 1: NS_ERROR_FAILURE: 
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+1567069960291	Marionette	INFO	Stopped listening on port 54244
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+[Child 8692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8692, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8560, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 7944, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1567069960411	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+shutdown@XPIDatabase.jsm:1574:14
+shutdown@XPIProvider.jsm:2462:23
+_startProvider/AMProviderShutdown/<@AddonManager.jsm:584:31
+AMProviderShutdown@AddonManager.jsm:582:16
+trigger@AsyncShutdown.jsm:701:23
+_wait@AsyncShutdown.jsm:847:15
+wait@AsyncShutdown.jsm:832:33
+shutdownManager@AddonManager.jsm:955:37
+observe@AsyncShutdown.jsm:532:16
+1567069960419	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.bQfrPujXLZfF\\extensions.json","winLastError":112}
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 3316, Chrome_ChildThread] WARNING: pipe error: 109: file z:/t
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1567070319303	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.eAr7pb5p75Qe"
+1567070319828	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567070319828	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567070319828	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567070319829	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://services-common/kinto-offline-client.js, line 579: Error: IndexedDB getLastModified() The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1567070321259	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"open","path":"C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.eAr7pb5p75Qe\\extensions.json","winLastError":112}
+1567070321450	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"open","path":"C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.eAr7pb5p75Qe\\extensions.json","winLastError":112}
+1567070321516	Marionette	INFO	Listening on port 54432
+1567070321532	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"open","path":"C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.eAr7pb5p75Qe\\extensions.json","winLastError":112}
+1567070321566	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.eAr7pb5p75Qe\content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1811: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: https://ekstat.com/js/ek$i-combo.js?v=3HOQWVeylUBlO3NKdw4Vfrkvl1gagIYJuyMv5e80imE1, line 1: NS_ERROR_FILE_ACCESS_DENIED: 
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.eAr7pb5p75Qe\content-prefs.sqlite: 2152857621
+JavaScript error: https://ekstat.com/js/ek$i-combo.js?v=3HOQWVeylUBlO3NKdw4Vfrkvl1gagIYJuyMv5e80imE1, line 1: NS_ERROR_FILE_ACCESS_DENIED: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.eAr7pb5p75Qe\content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: https://ekstat.com/js/ek$i-combo.js?v=3HOQWVeylUBlO3NKdw4Vfrkvl1gagIYJuyMv5e80imE1, line 1: NS_ERROR_FILE_ACCESS_DENIED: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.eAr7pb5p75Qe\content-prefs.sqlite: 2152857621
+JavaScript error: https://ekstat.com/js/ek$i-combo.js?v=3HOQWVeylUBlO3NKdw4Vfrkvl1gagIYJuyMv5e80imE1, line 1: NS_ERROR_FILE_ACCESS_DENIED: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.eAr7pb5p75Qe\content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: https://ekstat.com/js/ek$i-combo.js?v=3HOQWVeylUBlO3NKdw4Vfrkvl1gagIYJuyMv5e80imE1, line 1: NS_ERROR_FILE_ACCESS_DENIED: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.eAr7pb5p75Qe\content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: https://ekstat.com/js/ek$i-combo.js?v=3HOQWVeylUBlO3NKdw4Vfrkvl1gagIYJuyMv5e80imE1, line 1: NS_ERROR_FILE_ACCESS_DENIED: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.eAr7pb5p75Qe\content-prefs.sqlite: 2152857621
+JavaScript error: https://ekstat.com/js/ek$i-combo.js?v=3HOQWVeylUBlO3NKdw4Vfrkvl1gagIYJuyMv5e80imE1, line 1: NS_ERROR_FILE_ACCESS_DENIED: 
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.eAr7pb5p75Qe\content-prefs.sqlite: 2152857621
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: https://ekstat.com/js/ek$i-combo.js?v=3HOQWVeylUBlO3NKdw4Vfrkvl1gagIYJuyMv5e80imE1, line 1: NS_ERROR_FILE_ACCESS_DENIED: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.eAr7pb5p75Qe\content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: https://ekstat.com/js/ek$i-combo.js?v=3HOQWVeylUBlO3NKdw4Vfrkvl1gagIYJuyMv5e80imE1, line 1: NS_ERROR_FILE_ACCESS_DENIED: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.eAr7pb5p75Qe\content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: https://ekstat.com/js/ek$i-combo.js?v=3HOQWVeylUBlO3NKdw4Vfrkvl1gagIYJuyMv5e80imE1, line 1: NS_ERROR_FILE_ACCESS_DENIED: 
+JavaScript error: https://tpc.googlesyndication.com/safeframe/1-0-35/html/container.html line 8 > scriptElement, line 9: ReferenceError: buildAttribution is not defined
+1567070351375	Marionette	INFO	Stopped listening on port 54432
+[Child 7932, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[ChiJavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+[Parent 3336, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2024, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 3336, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8480, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x600027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x600027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x600027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x53000E,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+1567070351776	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+shutdown@XPIDatabase.jsm:1574:14
+shutdown@XPIProvider.jsm:2462:23
+_startProvider/AMProviderShutdown/<@AddonManager.jsm:584:31
+AMProviderShutdown@AddonManager.jsm:582:16
+trigger@AsyncShutdown.jsm:701:23
+_wait@AsyncShutdown.jsm:847:15
+wait@AsyncShutdown.jsm:832:33
+shutdownManager@AddonManager.jsm:955:37
+observe@AsyncShutdown.jsm:532:16
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU1567070498551	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.D6VxCMiocqmO"
+1567070499028	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567070499028	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567070499028	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567070499028	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+1567070500733	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.D6VxCMiocqmO\\extensions.json","winLastError":112}
+1567070500904	Marionette	INFO	Listening on port 54620
+1567070500914	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.D6VxCMiocqmO\\extensions.json","winLastError":112}
+1567070501331	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.D6VxCMiocqmO\content-prefs.sqlite: 2152857621
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.D6VxCMiocqmO\content-prefs.sqlite: 2152857621
+JavaScript error: https://static.criteo.net/js/ld/publishertag.js, line 1: NS_ERROR_FILE_NO_DEVICE_SPACE: 
+JavaScript error: https://static.criteo.net/js/ld/publishertag.js, line 1: NS_ERROR_FILE_NO_DEVICE_SPACE: 
+JavaScript error: https://static.criteo.net/js/ld/publishertag.js, line 1: NS_ERROR_FILE_NO_DEVICE_SPACE: 
+JavaScript error: https://static.criteo.net/js/ld/publishertag.js, line 1: NS_ERROR_FILE_NO_DEVICE_SPACE: 
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.D6VxCMiocqmO\content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.D6VxCMiocqmO\content-prefs.sqlite: 2152857621
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.D6VxCMiocqmO\content-prefs.sqlite: 2152857621
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+[Parent 6528, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 6528, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8984, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/buil[Child 2716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2716, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1567070623899	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+shutdown@XPIDatabase.jsm:1574:14
+shutdown@XPIProvider.jsm:2462:23
+_startProvider/AMProviderShutdown/<@AddonManager.jsm:584:31
+AMProviderShutdown@AddonManager.jsm:582:16
+trigger@AsyncShutdown.jsm:701:23
+_wait@AsyncShutdown.jsm:847:15
+wait@AsyncShutdown.jsm:832:33
+shutdownManager@AddonManager.jsm:955:37
+observe@AsyncShutdown.jsm:532:16
+1567070623917	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.D6VxCMiocqmO\\extensions.json","winLastError":112}
+1567070624005	Marionette	INFO	Stopped listening on port 54620
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1567070661928	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.cs1YFymzHwBy"
+1567070662402	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567070662402	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567070662402	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567070662402	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567070663644	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.cs1YFymzHwBy\\extensions.json","winLastError":112}
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+JavaScript error: resource://services-common/kinto-offline-client.js, line 579: Error: IndexedDB getLastModified() The current transaction exceeded its quota limitations.
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1567070663958	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.cs1YFymzHwBy\\extensions.json","winLastError":112}
+1567070664227	Marionette	INFO	Listening on port 54817
+1567070664231	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.cs1YFymzHwBy\\extensions.json","winLastError":112}
+1567070664695	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1811: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.cs1YFymzHwBy\content-prefs.sqlite: 2152857621
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.cs1YFymzHwBy\content-prefs.sqlite: 2152857621
+JavaScript error: https://static.criteo.net/js/ld/publishertag.js, line 1: NS_ERROR_FILE_NO_DEVICE_SPACE: 
+JavaScript error: https://static.criteo.net/js/ld/publishertag.js, line 1: NS_ERROR_FILE_NO_DEVICE_SPACE: 
+JavaScript error: https://static.criteo.net/js/ld/publishertag.js, line 1: NS_ERROR_FILE_NO_DEVICE_SPACE: 
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.cs1YFymzHwBy\content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.cs1YFymzHwBy\content-prefs.sqlite: 2152857621
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 985: NS_ERROR_FILE_ACCESS_DENIED: Could not open connection to C:\Users\maxwera\AppData\Local\Temp\rust_mozprofile.cs1YFymzHwBy\content-prefs.sqlite: 2152857621
+JavaScript error: https://tpc.googlesyndication.com/sodar/Enqz_20U.html, line 35: NS_ERROR_NOT_INITIALIZED: 
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 400: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.asyncExecuteLegacyQuery]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 400: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.asyncExecuteLegacyQuery]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 400: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavHistoryService.asyncExecuteLegacyQuery]
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+[Parent 9088, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5568, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8388, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, l[Child 8144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1567071059170	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+shutdown@XPIDatabase.jsm:1574:14
+shutdown@XPIProvider.jsm:2462:23
+_startProvider/AMProviderShutdown/<@AddonManager.jsm:584:31
+AMProviderShutdown@AddonManager.jsm:582:16
+trigger@AsyncShutdown.jsm:701:23
+_wait@AsyncShutdown.jsm:847:15
+wait@AsyncShutdown.jsm:832:33
+shutdownManager@AddonManager.jsm:955:37
+observe@AsyncShutdown.jsm:532:16
+1567071059280	Marionette	INFO	Stopped listening on port 54817
+[GPU 6ldThread
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 5700, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 8104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/1567070987850	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\maxwera\\AppData\\Local\\Temp\\rust_mozprofile.GYpN0M1lXCjQ"
+1567070988307	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567070988308	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567070988308	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567070988308	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567070990069	Marionette	INFO	Listening on port 55273
+1567070990106	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567023479829%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1567071012869	Marionette	INFO	Stopped listening on port 55273
+[Parent 4832, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8224, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8224, Chrome_ChildThread] WARNING: pipe error: 109: IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 4332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 644, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 5616, Chrome_

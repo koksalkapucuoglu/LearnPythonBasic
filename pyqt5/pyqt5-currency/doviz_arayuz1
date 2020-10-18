@@ -1,0 +1,84 @@
+"""
+PyQt5 ve request kullanılarak verilen iki para birimi arasındaki oranı gösterir.
+
+"""
+
+import sys
+import requests
+from PyQt5 import QtWidgets
+
+
+class Pencere(QtWidgets.QWidget): #bu hem normal bir pencere olacak hem de ekstra özellikler ekleyeceğiz.
+
+    def __init__(self):
+
+        super().__init__()
+
+        self.init_ui()
+
+    def init_ui(self):
+
+        self.yazi_alani1 = QtWidgets.QLabel("Döviz")
+        self.doviz1 = QtWidgets.QLineEdit()
+        self.yazi_alani2 = QtWidgets.QLabel("Çevrilecek Para Birimi")
+        self.doviz2 = QtWidgets.QLineEdit()
+        self.deger = QtWidgets.QLabel("")
+        self.temizle  = QtWidgets.QPushButton("Temizle")
+        self.cevir = QtWidgets.QPushButton("Çevir")
+
+
+        v_box = QtWidgets.QVBoxLayout()
+
+        v_box.addWidget(self.yazi_alani1)
+        v_box.addWidget(self.doviz1)
+        v_box.addWidget(self.yazi_alani2)
+        v_box.addWidget(self.doviz2)
+        v_box.addWidget(self.deger)
+        v_box.addWidget(self.temizle)
+        v_box.addWidget(self.cevir)
+        v_box.addStretch()
+
+        self.setLayout(v_box)
+
+
+        self.temizle.clicked.connect(self.click)
+        self.cevir.clicked.connect(self.click)
+
+        self.show()
+
+    def click(self):
+        sender = self.sender()#hangi butona basıldığına anlıyor
+
+        if sender.text() == "Temizle":
+            self.doviz1.clear()
+            self.doviz2.clear()
+
+        else:
+
+            url = "http://data.fixer.io/api/latest?access_key=fc8eea966493e0e1b70c330815be6050"
+            response = requests.get(url)
+
+            json_verisi = response.json()
+
+            doviz1 = self.doviz1.text()
+            doviz2 = self.doviz2.text()
+
+            bir = doviz1
+            iki = doviz2
+            bir = bir.upper()
+            iki = iki.upper()
+
+            deger = json_verisi["rates"][iki] / json_verisi["rates"][bir]
+
+            print("1 {} : {} {}".format(bir, deger, iki))
+            self.deger.setText("1 {} : {} {}".format(bir, deger, iki))
+
+
+
+
+
+app = QtWidgets.QApplication(sys.argv)
+
+pencere = Pencere()
+
+sys.exit(app.exec())

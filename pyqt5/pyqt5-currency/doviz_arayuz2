@@ -1,0 +1,86 @@
+"""
+
+PyQt5 ve request kullanılarak USD-TRY çift taraflı dönüştürücü programı
+"""
+
+import sys
+import requests
+from PyQt5 import QtWidgets
+
+
+class Pencere(QtWidgets.QWidget): #bu hem normal bir pencere olacak hem de ekstra özellikler ekleyeceğiz.
+
+    def __init__(self):
+
+        super().__init__()
+
+        self.init_ui()
+
+    def init_ui(self):
+
+        self.yazi_alani1 = QtWidgets.QLabel("USD")
+        self.doviz1 = QtWidgets.QLineEdit()
+        self.yazi_alani2 = QtWidgets.QLabel("TRY")
+        self.doviz2 = QtWidgets.QLineEdit()
+        self.temizle  = QtWidgets.QPushButton("Temizle")
+        self.cevir = QtWidgets.QPushButton("Çevir")
+
+
+        v_box = QtWidgets.QVBoxLayout()
+
+        v_box.addWidget(self.yazi_alani1)
+        v_box.addWidget(self.doviz1)
+        v_box.addWidget(self.yazi_alani2)
+        v_box.addWidget(self.doviz2)
+        v_box.addWidget(self.temizle)
+        v_box.addWidget(self.cevir)
+        v_box.addStretch()
+
+        self.setLayout(v_box)
+
+
+        self.temizle.clicked.connect(self.click)
+        self.cevir.clicked.connect(self.click)
+
+        self.show()
+
+    def click(self):
+        sender = self.sender()#hangi butona basıldığına anlıyor
+
+        if sender.text() == "Temizle":
+            self.doviz1.clear()
+            self.doviz2.clear()
+
+        else:
+
+            url = "http://data.fixer.io/api/latest?access_key=fc8eea966493e0e1b70c330815be6050"
+            response = requests.get(url)
+
+            json_verisi = response.json()
+
+            doviz1 = self.doviz1.text()
+            doviz2 = self.doviz2.text()
+
+            if doviz2 == "":
+                deger = json_verisi["rates"]["TRY"] / json_verisi["rates"]["USD"]
+
+                doviz1to2 = float(deger) * float(doviz1)
+
+
+                self.doviz2.setText(str(doviz1to2))
+            else:
+                deger = json_verisi["rates"]["USD"] / json_verisi["rates"]["TRY"]
+
+                doviz2to1 = float(deger) * float(doviz2)
+
+
+                self.doviz1.setText(str(doviz2to1))
+
+
+
+
+app = QtWidgets.QApplication(sys.argv)
+
+pencere = Pencere()
+
+sys.exit(app.exec())

@@ -1,0 +1,11 @@
+{% with messages = get_flashed_messages(with_categories=true) %}<!--with burada while gibi çalışır. get message varsa buraya gir.-->
+  {% if messages %}
+    
+    {% for category, message in messages %}<!--bu mesajın kendisi ve kategorisini al(success, danger...)-->
+    <div class="alert alert-{{category}}" role="alert"><!--burada bir bootstap clası kullanarak mesajın kategoriye göre renkli olmasını sağlıyoruz.-->
+       {{message}} 
+    </div>
+    {% endfor %}
+   
+  {% endif %}
+{% endwith %}

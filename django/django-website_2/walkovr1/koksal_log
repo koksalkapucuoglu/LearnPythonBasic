@@ -1,0 +1,57 @@
+
+Bu kısımda oluşturduğumuz "user" uygulamasındaki dosyalar ve ayarlamalar hakkında bilgi verilecektir. Nasıl uygulama oluşturulduğu
+done.txt dosyasında var.
+
+
+templates
+-----------
+Bu klasörde html sayfalarımız tutulur.
+
+static
+-------
+Bu klasörde css dosyalarımız tutulur.
+
+
+
+from user.models import UserUser
+
+users = UserUser.objects.all()
+ulist = list(users)
+user0 = ulist[0].__dict__
+user1 = ulist[1].__dict__
+user2 = UserUser.objects.get(username = "walkovr2")
+
+print(user2.__dict__["username"])
+
+
+if user0["username"] == user1["username"] :
+    print("eşit")
+else:
+    print("eşit değil")
+
+veveveve
+
+def login(request):
+    form = LoginForm(request.POST or None)
+
+    context  = {
+        "form":form
+    }
+#burada clean islemi yapmıyoruz ve form fonksiyonu içinde clean nasıl çalışıyorsa aynı şekilde çalışmaya devam edece
+    if form.is_valid(): #formda bir sorun var mı yok mu
+        username = form.cleaned_data.get("username")
+        password = form.cleaned_data.get("password")
+        u = UserUser.objects.get(username = username)
+        print(u)
+        if u:
+            if password == u.__dict__["password"]:
+                messages.success(request,"Başarıla Giriş Yaptınız...")
+                    #login(request,user)
+                    #serializer = UserSerializer(user, many=True)
+                    #print(serializer)
+                return render(request,"index.html")
+                #return redirect("content:panel")
+    else:
+        return render(request,"login.html",context) 
+
+yapılarını kullanarak login ile girilen bilgiyi databasedeki ile karşılatırdım ama bu manuel oldu. burada bir doğrulama kullanılmalı. yarın ona bak
