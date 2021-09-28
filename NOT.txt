@@ -1,4 +1,0 @@
-Bu reporstory'de tüm kodları tekrar çalıştır.
-ToDo app'i django ile tekrardan kodla ve paylaş(güzel bir readme dosyası ile)
-YBB blog'u tekrar django ile çalıştır ve paylaş(güzel bir readme dosyası ile)
-Bu projeleri bu klasörde kodla ve paylaş
